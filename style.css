@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: contain;
+  
+}
+
+#header {
+  color: rebeccapurple;
+  text-align: center;
+  font-size: 72px;
+  -webkit-text-stroke: 1px white;
+  background-color: black;
+  margin: 0;
+  padding: 0
+}
+
+#title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#pet-pics {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  width: 250px;
+  height: auto;
+  
+  border: 5px dashed white;
+  padding: 5px;
+}
+
+#testimonials {
+  color: white;
+  text-align: center;
+}
+
+.reviews {
+  font-size: 32px;
+  padding: 0px 70px;
+}
+
+.bolt1, .bolt2 {
+  width: 50px;
+  height: auto;
+}
+
+.bolt1 {
+  transform: rotate(90deg)
+}
+
+.bolt2 {
+  transform: rotate(270deg);
+}
+
+span {
+  margin: 0px 25px
+}
+
+#bolt-div {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-info {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+table {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+tr, td {
+  border: 1px solid white;
+}
